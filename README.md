@@ -95,7 +95,7 @@ The dataset contains information about students such as:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/student-data-cleaning.git
+   git clone https://github.com/Murali3710/student-data-cleaning.git
    ```
 
 2. Install required libraries:
