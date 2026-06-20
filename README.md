@@ -48,25 +48,25 @@ The dataset contains information about students such as:
 - Removed duplicate records using `drop_duplicates()`
 - Retained only unique observations in the dataset
 
-### 2. Handling Missing Values
+### 5. Handling Missing Values
 - Filled missing values in numerical columns using **median**
 - Handled missing categorical values using **mode**
   
-### 4. Date Conversion
+### 6. Date Conversion
 - Converted `Join_Date` into proper datetime format
 - Handled invalid date values
 
-### 5. Outlier Detection
+### 7. Outlier Detection
 - Used box plots and IQR method
 - Identified outliers in:
   - Age
   - Marks
 
-### 6. Outlier Treatment
+### 8. Outlier Treatment
 - Removed unrealistic values (e.g., Age = 200, 300, Marks = 300)
 - Retained realistic values like Age = 18, Marks = 60
 
-### 7. Final Dataset Check
+### 9. Final Dataset Check
 - Verified cleaned dataset using `info()`, `describe()`, and null checks
 
 ---
